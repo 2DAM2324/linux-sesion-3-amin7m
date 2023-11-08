@@ -1,0 +1,8 @@
+EJ.1
+env A=1 printenv A
+env B=2 printenv B
+env C=3 printenv C
+env D=4 printenv D
+env E=5 printenv E
+
+
