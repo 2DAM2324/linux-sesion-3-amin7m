@@ -47,10 +47,3 @@ grep ejemplo *
 EJ12
 cat /etc/passwd | cut -d: -f1 | grep nombreUsuario
 
-EJ14
-#!/bin/bash
-# Titulo:  ejercicio 4.14
-# Autor: Javier Aranda Izquierdo
-# Versión: 1.0
-cd;
-ls -A | wc -l;
