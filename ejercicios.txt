@@ -1,0 +1,49 @@
+EJ.1
+TERM_PROGRAM
+TERM
+SHELL
+CLICOLOR
+HOME
+
+EJ2.
+$ bash
+$ echo $NOMBRE
+
+EJ3
+$ echo “Los archivos que hay en el directorio son: $(ls -l)”
+$ echo “Los archivos que hay en el directorio son: `ls -l`”
+
+EJ4
+El valor de la variable es esta cadena de caracteres: +1
+
+EJ5
+#!/bin/bash
+printf "Me llamo $1 \n"
+
+EJ6
+#!/bin/bash
+printf "Mis amigos son $1 $2 $3 $4  \n"
+
+EJ7
+a) printf "%-15s %-15s %-15d\n" $VAR1 $VAR2 $VAR3
+b) Son variasbles locales
+c) unset VAR2
+d) No
+e) VAR4=(hola adios 14)
+f) echo ${VAR4[1]}
+
+EJ8
+alias ne='ls -A | wc -l'
+home: alias ne='cd;ls -A | wc -l'
+
+EJ9
+find $HOME -size -1
+Para que imprima el resultado de la orden en un archivo llamado archivosP:
+find $HOME -size -1 > archivosP
+
+EJ10
+grep ejemplo *
+
+EJ12
+cat /etc/passwd | cut -d: -f1 | grep nombreUsuario
+
